@@ -17,7 +17,7 @@ Since you are tired of being grifted by this monster, the time has come to code 
 The Loch Ness Monster. Note: It can also be written as 3.50 or three fifty.
 */
 
-//
+//Solution with '.test' method
 function isLockNessMonster(s) {
   return (/three fifty|tree fiddy|3.50/.test(s));
 }
