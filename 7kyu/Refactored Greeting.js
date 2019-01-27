@@ -11,7 +11,7 @@ joe.greet('Kate'); // should return 'Hello Kate, my name is Joe'
 joe.name           // should == 'Joe'
 */
 
-//Solution using regex
+//Solution using string template
 class Person {  
   constructor(name) {
     this.name = name;
