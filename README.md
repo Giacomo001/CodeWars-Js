@@ -1,4 +1,4 @@
-# CodeWars-
+# CodeWars
 Codewars Exercises
 
 - These are the solutions for Codewars' exercises done throughout my journey to learn javascript.
