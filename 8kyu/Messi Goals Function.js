@@ -13,7 +13,6 @@ goals(5,10,2) == 5+10+2 = 17
 
 //Solution with ternary operator
 function goals (Liga, Copa, Champions) {
-
    return (isNaN(Liga) || isNaN(Copa) || isNaN(Champions)) ? 'NaN' : (Liga + Copa + Champions);
 }
 
