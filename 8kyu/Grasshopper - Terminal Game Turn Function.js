@@ -15,7 +15,7 @@ the paragraph above.
 */
 
 //Solution with 'called functions' because the program is using a library with these functions in it.
-function doTurn () {
+function doTurn() {
   rollDice()
   move()
   combat()
