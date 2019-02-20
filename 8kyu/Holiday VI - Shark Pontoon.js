@@ -19,8 +19,8 @@ If you make it, return "Alive!", if not, return "Shark Bait!".
 function shark(pDistance, sDistance, speed, sSpeed, dolphin){
   if(dolphin === true) {sSpeed /= 2}
   
-  let myTime = pDistance / speed;
-  let sharkTime = sDistance / sSpeed;
+  let myTime = pDistance / speed
+  let sharkTime = sDistance / sSpeed
   
   return (myTime < sharkTime) ? 'Alive!' : 'Shark Bait!'
 }
