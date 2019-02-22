@@ -6,7 +6,7 @@ So, you need to check if there is gold in the bucket, and if so, return True/tru
 */
 
 //Short solution with 'indexOf' method
-const checkTheBucket = bucket => bucket.indexOf('gold') !== -1;
+const checkTheBucket = bucket => bucket.indexOf('gold') !== -1;   //Negative index means that 'gold' isn't present in the array.
 
 //Shorter solution
 const checkTheBucket = arr => arr.includes('gold');
